@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$body-font-family: 'brandon-grotesque', 'Brandon Grotesque', sans-serif !default;
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+        'small': 576px,
+        'medium': 768px,
+        'large': 992px,
+) !default;
+
+
+/// COLORS
+$primary-color: #256eff !default;
+$button-bg-color: #150578 !default;
+$secondary-color: #fffbfc !default;
+$border-color: #a53f2b !default;
+
+
+// Container Padding
+$padding-mobile: 1rem;
+$padding-desktop: 2.5rem;
+
+
+// Max Width
+$max-width: (77.5rem + (2 * $padding-desktop)); //1240px + 80px
+$wide-max-width: 90rem; //1440px

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Airport Marketplace Platform
+Theme URI: https://www.aviamedia.com/
+Author: Omar Najdi
+Author URI: https://omarnajdi.com/
+Description: Airport Marketplace Platform
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: fixed-layout, responsive-layout, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: amp
+*/
+
+@import "compass";
+
+@import 'abstracts/variables',
+'abstracts/mixins',
+'abstracts/normalize';
+
+@import 'layout/header';
