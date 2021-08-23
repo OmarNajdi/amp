@@ -1,5 +1,8 @@
 <?php
 
+require 'inc/navigation.php';
+require 'inc/helpers.php';
+
 if ( ! function_exists( 'theme_setup' ) ) {
 	function theme_setup() {
 		add_theme_support( 'html5', array(
