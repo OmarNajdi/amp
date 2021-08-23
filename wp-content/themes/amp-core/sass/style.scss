@@ -16,7 +16,8 @@ Text Domain: amp
 @import "compass";
 
 @import 'abstracts/variables',
-'abstracts/mixins',
-'abstracts/normalize';
+'abstracts/mixins';
+
+@import 'vendors/normalize';
 
 @import 'layout/header';
