@@ -1,8 +1,12 @@
 .primary-navigation {
-  display: flex;
+  display: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
+
+  @include respond-to('medium') {
+    display: flex;
+  }
 
   .menu-item {
     min-width: 5.875rem; //94px
