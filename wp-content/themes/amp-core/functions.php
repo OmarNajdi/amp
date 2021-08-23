@@ -11,6 +11,8 @@ if ( ! function_exists( 'theme_setup' ) ) {
 			'caption'
 		) );
 		add_theme_support( 'title-tag' );
+
+		register_nav_menu( 'primary', __( 'Primary Menu', 'amp' ) );
 	}
 }
 add_action( 'after_setup_theme', 'theme_setup' );
