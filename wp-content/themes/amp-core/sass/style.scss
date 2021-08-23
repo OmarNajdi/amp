@@ -18,6 +18,7 @@ Text Domain: amp
 @import 'abstracts/variables',
 'abstracts/mixins';
 
-@import 'vendors/normalize';
+@import 'base/normalize',
+'base/typography';
 
 @import 'layout/header';
