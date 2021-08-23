@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="100" viewBox="0 0 250 100">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 85px;
+        fill: #fff;
+        font-family: "Brandon Grotesque";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Airport" class="cls-1" x="2.108" y="69.592">Airport</text>
+</svg>

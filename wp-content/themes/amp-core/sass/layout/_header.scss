@@ -1,0 +1,40 @@
+.site-header {
+  background: $primary-color;
+  padding: 0.5rem 0;
+  @include respond-to('medium') {
+    padding: 1.5rem 0;
+  }
+
+  .site-branding {
+    display: flex;
+    align-items: center;
+
+    .header {
+      &__logo {
+        img {
+          height: 2.75rem;
+          @include respond-to('medium') {
+            height: 4rem;
+          }
+        }
+      }
+
+      &__title {
+        color: $white;
+        padding-left: 1rem;
+        @include respond-to('medium') {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.content-wrapper {
+  max-width: $max-width;
+  padding: 0 $padding-mobile;
+  margin: 0 auto;
+  @include respond-to('medium') {
+    padding: 0 $padding-desktop;
+  }
+}
