@@ -36,6 +36,11 @@ function wf_add_product_meta() {
 		'single'       => true,
 		'type'         => 'boolean',
 	) );
+	register_post_meta( 'product', '_is_alcohol', array(
+		'show_in_rest' => true,
+		'single'       => true,
+		'type'         => 'boolean',
+	) );
 }
 
 add_action( 'init', 'wf_add_product_meta' );
