@@ -104,8 +104,8 @@ Thumbs.db
 !site.webmanifest
 
 # track these mu-plugins, plugins, and themes
-# add your own entries here
 !wp-content/themes/amp-core/
 wp-content/themes/amp-core/style.css
 
 !wp-content/plugins/amp-custom/
+!wp-content/plugins/amp-api/
