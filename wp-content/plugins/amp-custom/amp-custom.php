@@ -17,6 +17,7 @@ include 'helpers/_utilities.php';
 include 'custom-post-types/retailer.php';
 include 'custom-meta/product.php';
 include 'custom-meta/retailer.php';
+include 'custom-options/options.php';
 
 function amp_custom_activate() {
 	flush_rewrite_rules();

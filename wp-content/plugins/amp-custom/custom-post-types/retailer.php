@@ -6,8 +6,8 @@
 
 function amp_retailers_custom_post_type() {
 	$labels = array(
-		'name'               => _x( 'Retailers', 'post type general name', 'amp' ),
-		'singular_name'      => _x( 'Retailer', 'post type singular name', 'amp' ),
+		'name'               => _x( 'Retailers', 'retailer post type general name', 'amp' ),
+		'singular_name'      => _x( 'Retailer', 'retailer post type singular name', 'amp' ),
 		'add_new'            => _x( 'Add New', 'retailer', 'amp' ),
 		'add_new_item'       => __( 'Add New Retailer', 'amp' ),
 		'edit_item'          => __( 'Edit Retailer', 'amp' ),
