@@ -107,3 +107,5 @@ Thumbs.db
 # add your own entries here
 !wp-content/themes/amp-core/
 wp-content/themes/amp-core/style.css
+
+!wp-content/plugins/amp-custom/

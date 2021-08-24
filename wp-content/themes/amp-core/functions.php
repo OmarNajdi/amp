@@ -24,7 +24,6 @@ if ( ! function_exists( 'amp_load_styles_and_scripts' ) ) {
 		wp_enqueue_style( 'amp-style', get_template_directory_uri() . '/style.css', false, $timestamp );
 		wp_enqueue_style( 'typekit', 'https://use.typekit.net/kac7brd.css', false );
 
-
 		// Remove Block Editor Styles
 		wp_dequeue_style( 'wp-block-library' );
 		wp_dequeue_style( 'wp-block-library-theme' );
