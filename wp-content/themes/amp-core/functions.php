@@ -2,6 +2,8 @@
 
 require 'inc/navigation.php';
 require 'inc/helpers.php';
+require 'inc/customize.php';
+require 'inc/customize-compiler.php';
 
 if ( ! function_exists( 'theme_setup' ) ) {
 	function theme_setup() {
