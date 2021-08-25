@@ -20,7 +20,7 @@ $breakpoints: (
 /// COLORS
 $primary-color: #256eff !default;
 $button-bg-color: #150578 !default;
-$secondary-color: #fffbfc !default;
+$secondary-color: #e7e6f7 !default;
 $border-color: #a53f2b !default;
 $white: #ffffff !default;
 
@@ -32,3 +32,7 @@ $padding-desktop: 2.5rem;
 // Max Width
 $max-width: (77.5rem + (2 * $padding-desktop)); //1240px + 80px
 $wide-max-width: 90rem; //1440px
+
+
+// Hero
+$hero-image-url: '' !default;

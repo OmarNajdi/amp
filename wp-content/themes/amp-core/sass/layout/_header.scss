@@ -43,7 +43,7 @@
     }
 
     .cart-customlocation {
-      @include border-radius(100%);
+      border-radius: 100%;
       font-size: 1rem;
       color: $white;
       height: 1.875rem;

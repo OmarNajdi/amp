@@ -1,0 +1,11 @@
+.hero {
+  height: 8.75rem;
+  background-color: $secondary-color;
+  background-image: url("#{$hero-image-url}");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include respond-to('medium') {
+    height: 25rem;
+  }
+}

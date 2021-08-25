@@ -16,7 +16,7 @@ Tags: fixed-layout, responsive-layout, custom-header, custom-menu, editor-style,
 Text Domain: amp
 */
 
-@import "compass";
+//@import "compass";
 
 @import 'abstracts/variables',
 'abstracts/mixins';
@@ -25,4 +25,5 @@ Text Domain: amp
 'base/typography';
 
 @import 'layout/header',
-'layout/navigation';
+'layout/navigation',
+'layout/hero';
