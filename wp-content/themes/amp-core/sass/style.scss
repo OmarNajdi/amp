@@ -26,4 +26,7 @@ Text Domain: amp
 
 @import 'layout/header',
 'layout/navigation',
-'layout/hero';
+'layout/hero',
+'layout/filter';
+
+@import 'components/modal';

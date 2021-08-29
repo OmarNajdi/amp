@@ -1,0 +1,34 @@
+.filter {
+  padding-top: 1.875rem;
+  @include respond-to('medium') {
+    padding-top: 2rem;
+  }
+
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-terminals {
+    @include respond-to('medium') {
+      font-size: 1.375rem;
+    }
+
+    a {
+      font-weight: 500;
+      color: $primary-color;
+
+      &::after {
+        content: ' ';
+        display: inline-block;
+        background-color: $primary-color;
+        -webkit-mask-image: url('/wp-content/themes/amp-core/images/icon-caret-down.svg');
+        mask-image: url('/wp-content/themes/amp-core/images/icon-caret-down.svg');
+        height: 8px;
+        width: 10px;
+        margin-left: 0.25rem;
+      }
+    }
+  }
+}
