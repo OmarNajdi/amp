@@ -21,7 +21,7 @@ if ( is_customize_preview() ) {
 		$css = $compiler->compileString( $scssContents )->getCss();
 
 		if ( ! empty( $css ) && is_string( $css ) ) {
-			echo '<style type="text/css">' . $css . '</style>';
+			echo '<style>' . $css . '</style>';
 		}
 	} );
 }

@@ -12,12 +12,14 @@ function amp_customize_register( $wp_customize ) {
 	) );
 
 	$wp_customize->add_setting( 'amp_btn_bg_color', array(
-		'default' => '#150578', //Secondary Color
+		'default' => '#150578', //Button Background Color
 	) );
 
-	$wp_customize->add_setting( 'amp_hero_image_src', array(
-		'default-image' => '',
+	$wp_customize->add_setting( 'amp_hero_enable', array(
+		'default' => true, //Enable Hero
 	) );
+
+	$wp_customize->add_setting( 'amp_hero_image_src' );
 
 
 	// Section
@@ -46,6 +48,12 @@ function amp_customize_register( $wp_customize ) {
 		'settings' => 'amp_secondary_color',
 	) ) );
 
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'amp_link_hero_enable', array(
+		'label'    => __( 'Enable Hero', 'amp-core' ),
+		'section'  => 'amp_theme_options',
+		'settings' => 'amp_hero_enable',
+		'type'     => 'checkbox'
+	) ) );
 	$wp_customize->add_control( new WP_Customize_Upload_Control( $wp_customize, 'amp_link_hero_image_src', array(
 		'label'    => __( 'Hero Image', 'amp-core' ),
 		'section'  => 'amp_theme_options',
